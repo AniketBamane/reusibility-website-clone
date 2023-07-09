@@ -1,0 +1,108 @@
+@media screen and (max-width:991px) {
+  .main-flex{
+    overflow: initial;
+    position:relative;
+  }
+  h1{
+    font-size: 2rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+   .nav-toggle{
+    display:block;
+    margin-right:20px;
+   }
+   .nav-links{
+    display:block;
+
+   }
+   .nav-flex{
+    flex-direction: column;
+    position:absolute;
+    top:100%;
+    left:-100%;
+    background-color: white;
+    width:100%;
+    padding-block:10px;
+   }
+   .active{
+    flex-direction: column;
+    position:absolute;
+    top:100%;
+    left:0px;
+    background-color: white;
+    width:100%;
+    padding-block:10px;
+   }
+   .feature-posters{
+    gap:10px;
+   }
+   .poster-feature-card{
+    width:calc(50% - 10px);
+    height:180px;
+
+   }
+   .testing-apeal-section{
+    padding:15px;
+   }
+}
+@media screen and (max-width:767px){
+  .frontview-flex{
+    flex-direction: column-reverse;
+  }
+  .lef-view{
+    width:100vw;
+    text-align: center;
+    padding:10px;
+  }
+  .features-section{
+    margin-top:10px;
+  }
+  .feature-card{
+    width:calc(50% - 10px);
+  }
+  .poster-container{
+    flex-direction: column;
+  }
+  .footer-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+  }
+  .link-column{
+    gap:10px;
+    text-align: center;
+    align-items: stretch;
+  }
+}
+
+@media screen and (max-width:538px){
+
+  h2{
+    font-size: 1.3rem;
+  }
+  h3{
+    font-size: 1.1rem;
+  }
+  p{
+    font-size:1rem;
+  }
+  .feature-card{
+    width:100%;
+  }
+  .left-poster,.right-poster{
+    width:100%;
+  }
+  .poster-feature-card{
+    width:100%;
+  }
+  body{
+    padding-inline:10px;
+  }
+  .poster-container{
+    gap:30px;
+    margin-bottom:10px;
+    }
+}
